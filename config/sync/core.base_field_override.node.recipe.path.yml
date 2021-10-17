@@ -1,0 +1,20 @@
+uuid: 6f013d52-a792-4cd4-ac9a-b3c76875d422
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recipe
+  module:
+    - path
+id: node.recipe.path
+field_name: path
+entity_type: node
+bundle: recipe
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
